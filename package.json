@@ -1,10 +1,10 @@
 {
   "name": "koa-routedebug",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": " Reports applied routes from a Koa Router instance",
   "main": "index.js",
   "bin": {
-     "routedebug": "index.js" 
+     "routedebug": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
