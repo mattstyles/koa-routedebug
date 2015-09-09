@@ -1,6 +1,6 @@
 {
   "name": "koa-routedebug",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": " Reports applied routes from a Koa Router instance",
   "main": "index.js",
   "bin": {
