@@ -1,7 +1,7 @@
-# Koa-RouteMaster
+# koa-routedebug
 
-> Simplifies and extends some of the functionality of [Koa-Router](https://www.npmjs.com/package/koa-router)
+> Monitors applied routes from a [Koa-Router](https://www.npmjs.com/package/koa-router) instance
 
 ```
-npm i -S koa-routemaster
+npm i -D koa-routedebug
 ```

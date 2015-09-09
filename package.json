@@ -1,25 +1,24 @@
 {
-  "name": "koa-routemaster",
+  "name": "koa-routedebug",
   "version": "0.0.0",
-  "description": "Simplifies and extends Koa Router",
-  "main": "lib/index.js",
+  "description": " Reports applied routes from a Koa Router instance",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src --out-dir lib",
-    "watch": "babel src --out-dir lib --watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "koa",
-    "router"
+    "router",
+    "debug"
   ],
   "author": {
     "name": "Matt Styles",
     "email": "matt@veryfizzyjelly.com",
     "url": "https://github.com/mattstyles"
   },
-  "repository": "git://github.com/mattstyles/koa-routemaster",
+  "repository": "git://github.com/mattstyles/koa-routedebug",
   "license": "WTFPL",
-  "devDependencies": {
-    "babel": "^5.8.23"
+  "dependencies": {
+    "babel-core": "^5.8.23"
   }
 }
