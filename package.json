@@ -2,14 +2,24 @@
   "name": "koa-routemaster",
   "version": "0.0.0",
   "description": "Simplifies and extends Koa Router",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib",
+    "watch": "babel src --out-dir lib --watch"
   },
   "keywords": [
     "koa",
     "router"
   ],
-  "author": "Matt Styles",
-  "license": "WTFPL"
+  "author": {
+    "name": "Matt Styles",
+    "email": "matt@veryfizzyjelly.com",
+    "url": "https://github.com/mattstyles"
+  },
+  "repository": "git://github.com/mattstyles/koa-routemaster",
+  "license": "WTFPL",
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
 }
