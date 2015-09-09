@@ -1,0 +1,15 @@
+{
+  "name": "koa-routemaster",
+  "version": "0.0.0",
+  "description": "Simplifies and extends Koa Router",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa",
+    "router"
+  ],
+  "author": "Matt Styles",
+  "license": "WTFPL"
+}
