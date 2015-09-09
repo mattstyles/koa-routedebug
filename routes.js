@@ -9,7 +9,7 @@ import chalk from 'chalk'
 export default function( routerPath ) {
     let router = require( path.resolve( routerPath ) )
 
-    console.log( chalk.magenta( '[route:debug]' ), chalk.white( 'routes' ) )
+    console.log( chalk.magenta( '[route:debug]' ), chalk.white( 'routes' ), chalk.yellow( routerPath ) )
 
     router.stack.forEach( layer => {
         console.log( chalk.grey( layer.path ) )
